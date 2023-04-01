@@ -1,0 +1,105 @@
+/* Header content responsive*/
+@media screen and (max-width: 900px) {
+    .column2 img {
+        width: 350px;
+    }
+    .column1 h1 {
+        font-size: 40px;
+    }
+    .column1 p {
+        font-size: 17px;
+    }
+    .row {
+        margin-top: 80px;
+    }
+    footer {
+        background-color: #242424;
+        color: white;
+        padding: 40px;
+        font-size: 16px;
+    }
+    
+    /* This container class sets the layout for the columns in the footer */
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        width: 100%; /* Add this to ensure the container takes up the full width of the page */
+    }
+    
+    /* Each footer column is given a class */
+    .footer-column1 {
+        flex-basis: 30%; /* Sets the initial width of the column */
+    }
+    
+    .footer-column2 {
+        flex-basis: 30%;
+    }
+    
+    .footer-column3 {
+        flex-basis: 30%;
+    }
+    
+    /* Add these styles to the h3 elements to improve readability */
+    .footer-column1 h3,
+    .footer-column2 h3,
+    .footer-column3 h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    /* Add these styles to the ul and li elements to remove default margins and padding */
+    .footer-column2 ul,
+    .footer-column3 ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer-column2 li,
+    .footer-column3 li {
+        margin-bottom: 10px;
+    }
+    
+    /* Add these styles to the links to improve readability and add hover effects */
+    .footer-column2 a,
+    .footer-column3 a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .footer-column2 a:hover,
+    .footer-column3 a:hover {
+        color: #FFCC70;
+    }
+    
+    /* Add this style to the social media icons to add some margin */
+    .footer-column3 i {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    
+    /* Add these styles to the footer bottom to center the text and add a border */
+    .footer-bottom {
+        text-align: center;
+        border-top: 1px solid #707070;
+        padding-top: 20px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    
+    /* Additional styles for the columns */
+    .footer-column1 {
+        text-align: center;
+    }
+    
+    .footer-column2 {
+        text-align: center;
+    }
+    
+    .footer-column3 {
+        text-align: center;
+    }
+}
